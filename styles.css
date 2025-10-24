@@ -40,7 +40,7 @@ figure {
   padding-bottom: 1em;
 }
 
-a {
+nav > a {
   text-decoration: none;
   color: gray;
 }
@@ -48,20 +48,6 @@ a {
 h3, p {
   text-align: center;
   margin: auto;
-}
-
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.flex-item {
-  width: 420px;
-  padding: 0;
-  margin: 0 0 20px 0;
 }
 
 .images-horizontal {
@@ -72,6 +58,24 @@ h3, p {
 .images-vertical {
   height: 400px;
   margin: 0 0.5em;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.flex-item {
+  padding: 0;
+  margin: 0 10px 20px 10px;
+}
+
+.thin-flex {
+  max-width: 800px;
 }
 
 .gallery-images {
