@@ -16,10 +16,10 @@ nav {
   text-align: center;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
-  padding: 1%;
   margin: 0;
   background-color: beige;
   width: 100%;
+  overflow: auto;
 }
 
 body {
@@ -91,9 +91,13 @@ h3, p {
 
 .navItem {
   text-align: center;
-  padding: 1em;
+  padding: .5em;
+  margin: 0;
   box-sizing: border-box;
-  width: 15%;
+  width: 8em;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .currentPageNav {
