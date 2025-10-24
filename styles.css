@@ -118,3 +118,11 @@ h3, p {
 .currentPageNav {
   background-color: #f9a828;
 }
+
+video::-webkit-media-controls-volume-slider {
+  display: none;
+}
+
+video::-webkit-media-controls-mute-button {
+  display: none;
+}
