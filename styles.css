@@ -127,6 +127,14 @@ h3, p {
   background-color: #f9a828;
 }
 
+.back-to-top {
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-top: 2%;
+  display: inline-block;
+}
+
 video::-webkit-media-controls-volume-slider {
   display: none;
 }
