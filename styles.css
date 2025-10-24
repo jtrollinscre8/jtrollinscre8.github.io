@@ -14,16 +14,16 @@ header {
 
 nav {
   text-align: center;
+  color: #22313f;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   margin: 0;
-  background-color: beige;
+  background-color: #ececeb;
   width: 100%;
-  overflow: auto;
 }
 
 body {
-  background: steelblue;
+  background: #8dc6ff;
 }
 
 h3 {
@@ -38,6 +38,11 @@ p {
 figure {
   margin: auto;
   padding-bottom: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
 }
 
 h3, p {
@@ -61,22 +66,21 @@ h3, p {
 
 .images-horizontal {
   width: 400px;
-  border-radius: 20px;
-  border: solid 5px black;
-  box-sizing: border-box;
+  margin: 0 0.5em;
 }
 
 .images-vertical {
   height: 400px;
-  border-radius: 20px;
-  border: solid 5px black;
-  box-sizing: border-box;
+  margin: 0 0.5em;
 }
 
 .gallery-images {
   width: 400px;
-  border-radius: 20px;
-  border: solid 5px black;
+}
+
+.all-images {
+  border-radius: 10px;
+  border: solid 5px #34495e;
   box-sizing: border-box;
 }
 
@@ -86,7 +90,13 @@ h3, p {
 }
 
 .spacer {
-  padding: 10px;
+  margin: 10px auto;
+}
+
+.separator {
+  padding: 2px;
+  max-width: 600px;
+  background: #22313f;
 }
 
 .navItem {
@@ -98,8 +108,9 @@ h3, p {
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
+  color: #22313f;
 }
 
 .currentPageNav {
-  background-color: chocolate;
+  background-color: #f9a828;
 }
