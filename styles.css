@@ -61,7 +61,7 @@ a {
 }
 
 #projects > div > p {
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 
 nav > a {
@@ -124,7 +124,7 @@ h3, p {
 .separator {
   padding: 2px;
   max-width: 600px;
-  background: #22313f;
+  background: #34495e;
 }
 
 .navItem {
