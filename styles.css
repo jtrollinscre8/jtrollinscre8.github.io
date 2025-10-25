@@ -34,6 +34,10 @@ body {
   background: #8dc6ff;
 }
 
+h1, h2, h3 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 h3 {
   padding: 1%;
 }
@@ -46,6 +50,18 @@ p {
 figure {
   margin: auto;
   padding-bottom: 1em;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+a {
+  font-family: 'Recursive', sans-serif;
+}
+
+#projects > div > p {
+  font-size: 0.9em;
 }
 
 nav > a {
@@ -90,7 +106,7 @@ h3, p {
   width: 400px;
 }
 
-.all-images {
+.all-images, video {
   border-radius: 10px;
   border: solid 5px #34495e;
   box-sizing: border-box;
@@ -113,6 +129,8 @@ h3, p {
 
 .navItem {
   text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
   padding: .5em;
   margin: 0;
   box-sizing: border-box;
