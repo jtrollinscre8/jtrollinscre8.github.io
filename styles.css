@@ -40,11 +40,15 @@ h1, h2, h3 {
 
 h3 {
   padding: 1%;
+  text-align: center;
+  margin: auto;
 }
 
 p {
   font-family: 'Recursive', sans-serif;
   max-width: 600px;
+  margin: auto;
+  text-align: center;
 }
 
 figure {
@@ -64,6 +68,9 @@ a {
   font-family: 'Recursive', sans-serif;
 }
 
+section > p {
+  text-align: justify;
+}
 #projects > div > p {
   font-size: 0.8em;
 }
@@ -71,11 +78,6 @@ a {
 nav > a {
   text-decoration: none;
   color: gray;
-}
-
-h3, p {
-  text-align: center;
-  margin: auto;
 }
 
 .images-horizontal {
