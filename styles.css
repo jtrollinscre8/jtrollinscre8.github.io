@@ -114,12 +114,12 @@ nav > a {
 
 .all-images, video {
   border-radius: 10px;
-  border: solid 5px #84b1de;
+  border: solid 5px #132d46;
   box-sizing: border-box;
 }
 
 .gallery-images:hover {
-  border-color: blue;
+  border-color: rgb(59, 59, 198);
   width: 420px;
 }
 
